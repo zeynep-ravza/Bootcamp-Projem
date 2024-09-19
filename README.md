@@ -69,7 +69,7 @@ K-Means gibi kümeleme algoritmalarında çapraz doğrulama doğrudan uygulanmaz
 
 
 
-   Kaggle'daki nootbook adresim : https://www.kaggle.com/code/zeynepravzadursun/al-ma
+   Kaggle'daki nootbook adresim : https://www.kaggle.com/code/zeynepravzadursun/al-ma ve kaggle profilim : https://www.kaggle.com/zeynepravzadursun
   
 
 
