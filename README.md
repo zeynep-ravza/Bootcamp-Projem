@@ -66,6 +66,10 @@ K-Means gibi kümeleme algoritmalarında çapraz doğrulama doğrudan uygulanmaz
    olduğunu gösterir.
    Kümeleme Kalitesi: Bu skor, K-Means modelimizin oldukça başarılı bir şekilde kümelendiğini ve her bir kümenin içindeki noktaların birbirine çok benzediğini 
    gösterir. Kümeler arasında belirgin ayrımlar var.
+
+
+
+   Kaggle'daki nootbook adresim : https://www.kaggle.com/code/zeynepravzadursun/al-ma
   
 
 
