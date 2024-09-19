@@ -42,17 +42,19 @@ Gözetimli öğrenme için Lojistik Regrosyon kullanarak animeleri ratinglerine 
 
 Gözetimsiz öğrenme için K-Means kümeleme algoritması kullandım. Veri setini genre_encoded , episodes , members , type_encoded'i guruplara ayırarak her küme, seçilen özellikler açısından benzer anime'leri içeren gruplar oluşturdum.
 
-Lojistik Regresyon  için çapraz doğrulama yaptım.Sonuçlar:
-   Genel Performans: Ortalama skor (%63) modelimiz genel performansının yeterli olduğunu ve modelinizin genellikle iyi çalıştığını gösterir. Standart sapmanın düşük 
-   olması, modelimizin çeşitli veri alt kümelemelerinde tutarlı performans gösterdiğini belirtir.
-   Standart sapma, doğruluk skorlarının ne kadar değiştiğini gösterir. Burada 0.0371 olarak hesaplanmıştır. Bu düşük standart sapma, modelinizin çapraz doğrulama 
-  sırasında performansının tutarlı olduğunu gösterir.
+Lojistik Regresyon  için çapraz doğrulama yaptım. Sonuçlar:
+     Genel Performans: Ortalama skor (%63) modelimiz genel performansının yeterli olduğunu ve modelinizin genellikle iyi çalıştığını gösterir. Standart sapmanın düşük 
+     olması, modelimizin çeşitli veri alt kümelemelerinde tutarlı performans gösterdiğini belirtir.
+     Standart sapma, doğruluk skorlarının ne kadar değiştiğini gösterir. Burada 0.0371 olarak hesaplanmıştır. Bu düşük standart sapma, modelinizin çapraz doğrulama 
+     sırasında performansının tutarlı olduğunu gösterir.
+
 
 K-Means gibi kümeleme algoritmalarında çapraz doğrulama doğrudan uygulanmaz çünkü bu algoritmalar denetimsizdir ve genellikle etiketlenmiş verilerle test edilemezler. Ancak, bazı yöntemlerle kümeleme kalitesini değerlendirebilir ben o yöntemlerden Silhouette Skorunu kullandım.Sonuçlar:
+   
    Yüksek Skor: Skor 0.8693, kümelerinizin oldukça iyi bir şekilde ayrıldığını ve kümeler içindeki benzerliklerin yüksek, kümeler arasındaki farkların ise belirgin 
    olduğunu gösterir.
-    Kümeleme Kalitesi: Bu skor, K-Means modelimizin oldukça başarılı bir şekilde kümelendiğini ve her bir kümenin içindeki noktaların birbirine çok benzediğini 
-    gösterir. Kümeler arasında belirgin ayrımlar var.
+   Kümeleme Kalitesi: Bu skor, K-Means modelimizin oldukça başarılı bir şekilde kümelendiğini ve her bir kümenin içindeki noktaların birbirine çok benzediğini 
+   gösterir. Kümeler arasında belirgin ayrımlar var.
   
 
 
