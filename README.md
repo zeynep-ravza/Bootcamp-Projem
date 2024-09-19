@@ -19,12 +19,12 @@ Gözetimli öğrenme için Lojistik Regrosyon kullanarak animeleri ratinglerine 
      Recall: 0.31 (Gerçek yüksek dereceli animelerin %31'i doğru tahmin ediliyor. Yani, yüksek dereceli animelerin %69'u kaçırılıyor.)
      F1-score: 0.43 (Precision ve recall'ün dengeli bir ortalaması. Bu sınıf için performans hala düşük, ama önceki sonuçlardan biraz iyileşme var.)
      
-   Low:
+    Low:
     Precision: 0.67 (Düşük dereceli tahminlerinizin %67'si doğru.)
     Recall: 0.90 (Gerçek düşük dereceli animelerin %90'ı doğru tahmin ediliyor. Bu, düşük dereceli animelerin çoğunu doğru tahmin edebildiğinizi gösterir.)
     F1-score: 0.77 (Düşük dereceli animeler için dengeli bir performans.)
     
-   Medium:
+    Medium:
     Precision: 0.58 (Orta dereceli tahminlerinizin %58'i doğru.)
     Recall: 0.46 (Gerçek orta dereceli animelerin %46'sı doğru tahmin ediliyor.)
     F1-score: 0.52 (Orta dereceli animeler için dengeli bir performans)
@@ -33,19 +33,19 @@ Gözetimli öğrenme için Lojistik Regrosyon kullanarak animeleri ratinglerine 
  
  2. confusion_matrix Analizi:
     
-   İlk Satır: Gerçek High kategorisindeki animeler için tahminler:
+    İlk Satır: Gerçek High kategorisindeki animeler için tahminler:
    
              154 doğru yüksek dereceli tahmin
              70 yanlış düşük dereceli tahmin
              277 yanlış orta dereceli tahmin
              
-  İkinci Satır: Gerçek Low kategorisindeki animeler için tahminler:
+    İkinci Satır: Gerçek Low kategorisindeki animeler için tahminler:
   
                1407 doğru düşük dereceli tahmin
                5 yanlış yüksek dereceli tahmin
                146 yanlış orta dereceli tahmin
                
-  Üçüncü Satır: Gerçek Medium kategorisindeki animeler için tahminler:
+    Üçüncü Satır: Gerçek Medium kategorisindeki animeler için tahminler:
   
                596 doğru orta dereceli tahmin
                59 yanlış yüksek dereceli tahmin
